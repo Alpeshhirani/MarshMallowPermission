@@ -6,7 +6,8 @@ MarshMallowPermission marshMallowPermission;
 @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-            
+           
+           
         marshMallowPermission = new MarshMallowPermission(this);
          if (!marshMallowPermission.checkPermissionForReadPhoneState()) {      
               marshMallowPermission.requestPermissionForReadPhoneState();
@@ -15,11 +16,13 @@ MarshMallowPermission marshMallowPermission;
                 //Already allow Permission
                 //Code Here
                 }
+                
 }
 
 
  @Override
     public void onRequestPermissionsResult(int requestCode, String permissions[], int[] grantResults) {
+
         switch (requestCode) {
             case MarshMallowPermission.READ_PHONE_STATE_CODE:
 
@@ -31,4 +34,5 @@ MarshMallowPermission marshMallowPermission;
 
                 break;
         }
+
     }
