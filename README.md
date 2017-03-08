@@ -6,8 +6,7 @@ MarshMallowPermission marshMallowPermission;
 @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //*************************** initialization View**********************************
-        
+            
         marshMallowPermission = new MarshMallowPermission(this);
          if (!marshMallowPermission.checkPermissionForReadPhoneState()) {      
               marshMallowPermission.requestPermissionForReadPhoneState();
