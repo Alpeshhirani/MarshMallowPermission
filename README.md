@@ -1,6 +1,8 @@
 # MarshMallowPermission
-The easiest way to handle android runtime permissions.
 
+The easiest way to handle android runtime permissions.
+============
+```
 MarshMallowPermission marshMallowPermission;
 
 @Override
@@ -36,3 +38,4 @@ MarshMallowPermission marshMallowPermission;
         }
 
     }
+```
