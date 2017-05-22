@@ -6,7 +6,7 @@ import android.content.pm.PackageManager;
 import android.support.v4.app.ActivityCompat;
 
 
-public class MarshMallowPermission1 {
+public class MarshMallowPermission {
 
     public static final int READ_CALENDAR_CODE = 1;
     public static final int WRITE_CALENDAR_CODE = 2;
@@ -35,7 +35,7 @@ public class MarshMallowPermission1 {
 
     Activity activity;
 
-    public MarshMallowPermission1(Activity activity) {
+    public MarshMallowPermission(Activity activity) {
         this.activity = activity;
     }
 
