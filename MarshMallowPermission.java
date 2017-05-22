@@ -1,4 +1,4 @@
-package com.presentmaam.xitix.Activity;
+package com.hirani.Activity;
 
 import android.Manifest;
 import android.app.Activity;
